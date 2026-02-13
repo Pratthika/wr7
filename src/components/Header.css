@@ -1,0 +1,63 @@
+.header {
+  width: 100%;
+  height: 172px;
+  background-color: #9F7651;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  margin-top: 4px;
+  height: 90px; /* Adjust the height as needed */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 3px; /* Space between logo and text */
+}
+
+.logo-text {
+  font-family: 'Jost', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 50%;
+}
+
+.search-bar {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+}
+
+.search-icon {
+  font-size: 20px;
+  color: #9F7651;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons .icon {
+  font-size: 35px;
+  color: white;
+  margin-left: 15px;
+  cursor: pointer;
+}

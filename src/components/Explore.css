@@ -1,0 +1,67 @@
+.explore-page {
+    padding: 20px;
+  }
+  
+  .reading-goals, .community-picks, .exclusive-content {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Reading Goals */
+  .goal-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Community Picks */
+  .picks-grid {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .pick-item {
+    text-align: center;
+  }
+  
+  .pick-item img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .pick-title {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .pick-author {
+    color: #777;
+  }
+  
+  /* Exclusive Content */
+  .exclusive-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .exclusive-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .exclusive-link {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,86 @@
+/* src/pages/BookUpload.css */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .book-upload-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure full viewport height */
+  }
+  
+  .book-upload-container {
+    padding: 20px;
+}
+
+.book-upload-container h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.book-upload-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #9F7651;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 40%;
+}
+
+.book-upload-container button {
+    margin-top: 10px;
+    background-color: #9F7651;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.review-status {
+    margin-top: 20px;
+}
+
+.status {
+    font-size: 18px;
+}
+
+.status.accepted {
+    color: green;
+}
+
+.status.rejected {
+    color: red;
+}
+
+.status button {
+    margin-top: 10px;
+    background-color: #9F7651;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

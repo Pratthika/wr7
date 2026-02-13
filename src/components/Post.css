@@ -1,0 +1,37 @@
+/* Post.css */
+.post {
+    padding: 0px;
+    padding-bottom: 30px;
+  }
+  
+  .post h1 {
+    text-align: center;
+  }
+  
+  .post form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .post textarea {
+    width: 80%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .post input[type="file"] {
+    margin: 10px 0;
+  }
+  
+  .post button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #9F7651;
+    border: none;
+    border-radius: 7px;
+    color: white;
+  }
+  

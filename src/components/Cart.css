@@ -1,0 +1,160 @@
+.cart {
+    padding: 20px;
+    min-height: 100vh; /* Ensure the container takes up full height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-items {
+    list-style-type: none;
+    padding: 0;
+    flex: 1; /* Allow cart items to take up available space */
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjusted for spacing */
+    line-height: 1;
+  }
+  
+  .cart-item img {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+  }
+  
+  .cart-item-info h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #9f7651;
+  }
+  
+  .cart-item-info p {
+    font-size: 20px;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity-controls button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #9f7651;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  .quantity-controls span {
+    margin: 0 10px;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .dropdown {
+    padding: 5px;
+    border: 1px solid #9f7651;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+  .cost-summary {
+    margin-top: 40px;
+    color: goldenrod;
+  }
+  
+  .proceed-button {
+    padding: 10px 20px;
+    background-color: #9f7651;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Additional CSS for Recommended Books */
+  .cart-content {
+    display: flex;
+  }
+  
+  .cart-main {
+    flex: 1;
+  }
+  
+  .recommended-books {
+    width: 450px;
+  }
+  
+  .recommended-books h2 {
+    font-size: 36px;
+    color: #9f7651;
+  }
+  
+ /* Additional CSS for Recommended Books */
+.recommended-books-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Space between items */
+    overflow-y: auto;
+    height: 100; /* Adjust height as needed */
+    align-content: center;
+  }
+  
+  .recommended-books-container .book-item {
+    background-color: #ffffff;
+    border-bottom: 1px solid #9f7651;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 152px;
+    height: 290px;
+    margin: 0;
+  }
+  
+  .recommended-books-container .book-item img {
+    width: 150px; /* Full width of the container */
+    height: 200px; /* Maintain aspect ratio */
+    align-content: center;
+  }
+  
+  .recommended-books-container .book-item .book-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .recommended-books-container .book-item .book-title {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .recommended-books-container .book-item .book-author {
+    font-size: 18px;
+    color: #9f7651;
+  }
+  
+  .recommended-books-container .book-item .book-price {
+    font-size: 16px;
+    color: goldenrod;
+  }
+  

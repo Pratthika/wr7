@@ -1,0 +1,53 @@
+/* src/components/CustomerReview.css */
+.customer-review-section {
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .customer-review-section h2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 45px;
+    color: #9F7651; /* Same as header color */
+    margin-bottom: 40px;
+  }
+  
+  .reviews-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .review {
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white; /* Same as welcome section color with opacity */
+    text-align: left;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-name {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .review-text {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .review-rating {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    color: #888;
+  }
+  

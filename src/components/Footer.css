@@ -1,0 +1,50 @@
+/* src/components/Footer.css */
+.footer {
+    width: 100%;
+    background-color: #9F7651;
+    color: white;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: auto;
+    height: 100%;
+  }
+  
+  .footer .contact-details, .footer .social-media {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer h3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer p, .footer a {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer .social-icons a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #d4c3a3;
+  }
+  

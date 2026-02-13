@@ -1,0 +1,39 @@
+.forum-section {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+  }
+  
+  .forum-section h2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 45px;
+    color: #9F7651; /* Adjusted color for text */
+    margin-bottom: 10px;
+  }
+  
+  .forum-section p {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: #9F7651; /* Adjusted color for text */
+    margin-bottom: 20px;
+  }
+  
+  .forum-link {
+    display: inline-block;
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    color: #ffffff; /* White text color */
+    background-color: #9F7651; /* Same color as other sections */
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .forum-link:hover {
+    background-color: #f1c40f; /* Hover color */
+  }
+  

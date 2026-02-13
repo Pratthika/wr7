@@ -1,0 +1,69 @@
+.forum-page {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(159, 118, 81, 0.49); /* Same background as WelcomeSection */
+    border-radius: 10px;
+  }
+  
+  .forum-page h1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 45px;
+    color: #9F7651;
+    margin-bottom: 30px;
+  }
+  
+  .forum-page p {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+ /* Forum.css */
+.forum {
+  padding: 20px;
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: #9F7651;
+  font-size: 18px;
+}
+
+.forum-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #9F7651;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.forum-button:hover {
+  background-color: #8c6142;
+}
+
+.posts {
+  margin-top: 20px;
+  font-size: 28px;
+  color: #9F7651;
+}
+
+.post {
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  color: #9F7651;
+  font-size: 20px;
+  border-radius: 10px;
+}

@@ -1,0 +1,233 @@
+body {
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .book-details {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .upper-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .left-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .left-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .middle-section {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .middle-section h1 {
+    font-size: 36px;
+    color: #9f7651;
+    text-align: left;
+  }
+  
+  .middle-section .author {
+    font-size: 24px;
+    color: #9f7651;
+    text-align: left;
+  }
+  
+  .middle-section .rating {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  .middle-section .description {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .cost-area {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cost-area .price {
+    font-size: 30px;
+    color: #f1c40f;
+    margin: 10px 0;
+  }
+  
+  .cost-area .delivery-details,
+  .cost-area .delivery-address,
+  .cost-area .quantity {
+    margin: 10px 0;
+  }
+  
+  .cost-area .buy-button,
+  .cost-area .cart-button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    background-color: #9f7651;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cost-area .cart-button {
+    background-color: #e7b938;
+  }
+  
+  .lower-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .write-review {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .write-review h2 {
+    font-size: 30px;
+    color: #9f7651;
+  }
+  
+  .write-review form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .write-review textarea {
+    width: 90%;
+    height: 75px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .rating-input {
+    display: flex;
+  }
+  
+  .rating-input .fa-star {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .write-review button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #9f7651;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 97%;
+  }
+  
+  .reviews-section {
+    flex: 1;
+    margin: 0px 650px 0px 0px;
+  }
+  
+  .reviews-section h2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    color: #9f7651;
+  }
+  
+  .reviews-section .review {
+    margin: 10px 0;
+    line-height: 1; /* Adjust line height */
+  }
+  
+  
+  .similar-books-section {
+    margin-top: 30px;
+  }
+  
+  .similar-books-section h2 {
+    font-size: 30px;
+    color: #9f7651;
+  }
+  
+  .similar-books-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .similar-books-container .book-item {
+    background-color: #ffffff; /* Background color */
+    border-bottom: 1px solid #9f7651; /* Line between book items */
+    padding: 10px; /* Reduced padding */
+    border-radius: 10px;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+    height: 440px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .similar-books-container .book-item img {
+    width: 200px;
+    height: 300px;
+  }
+  
+  .similar-books-container .book-item .book-info {
+    margin: 0; /* Remove top margin */
+    padding: 0;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .thumbnail-images {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .thumbnail-images img {
+    width: 50px;
+    height: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .thumbnail-images img.selected-thumbnail {
+    border-color: #9f7651;
+  }
+  /* Add these styles to both BookDetails.css and BorrowDetails.css */
+  .quantity-dropdown {
+    width: 80px;
+  }
+  
+  /* Style for the custom quantity input */
+  .custom-quantity-input {
+    width: 60px;
+    margin-left: 10px;
+  }
+  
+  /* Add some spacing between dropdown and input */
+  .quantity-dropdown + .custom-quantity-input {
+    margin-left: 10px;
+  }

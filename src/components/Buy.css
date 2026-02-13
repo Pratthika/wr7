@@ -1,0 +1,231 @@
+.buy-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 25px;
+  display: flex;
+}
+
+.side-section {
+  width: 20%;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.categories {
+  width: 100%;
+}
+
+.categories h2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 30px;
+  color: #9F7651;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categories li {
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.filters {
+  margin-top: 5px;
+}
+
+.filters h2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 30px;
+  color: #9F7651;
+  margin-bottom: 10px;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-options label {
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.price-filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-filter .horizontal-slider {
+  width: 97%;
+  margin: 10px 0px;
+}
+
+.price-filter .thumb {
+  height: 20px;
+  width: 40px;
+  padding: 3px;
+  background-color: #9F7651;
+  cursor: pointer;
+  border-radius: 20%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.price-filter .track {
+  top: 0;
+  bottom: 0;
+  background: #9f7561;
+}
+
+.price-values {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Your existing CSS styles */
+
+.horizontal-slider {
+  width: 97%;
+  height: 10px;
+  background: rgba(159, 118, 81, 0.29);;
+  border-radius: 5px;
+}
+
+.track {
+  position: relative;
+  height: 100%;
+  cursor: pointer;
+}
+
+.track-filled {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: rgba(159, 118, 81, 0.49);
+  border-radius: 9px;
+}
+
+.thumb {
+  position: absolute;
+  top: -8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #9F7651;
+  cursor: pointer;
+}
+
+.book-section {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Jost', sans-serif;
+  font-size: 45px;
+  color: #9F7651;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-item {
+  background-color: #ffffff; /* Background color */
+  border-bottom: 1px solid #9F7651; /* Line between book items */
+  padding: 10px; /* Reduced padding */
+  border-radius: 10px;
+  width: 200px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 15px;
+  height: 440px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.book-item a {
+  text-decoration: none;
+}
+
+.book-item img {
+  width: 200px;
+  height: 280px; /* Adjust height as needed */
+}
+
+.book-info {
+  margin: 0; /* Remove top margin */
+  padding: 0;
+  line-height: 1.5; /* Reduce margin to bring content closer together */
+}
+
+.book-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #9F7651;
+  margin: 0;
+  padding: 0;
+}
+
+.book-author {
+  font-size: 18px;
+  color: #9F7651;
+  margin: 0;
+  padding: 0;
+}
+
+.book-rating {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+}
+
+.book-type {
+  font-size: 16px;
+  color: #9F7651;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+
+.book-price {
+  font-size: 25px;
+  color: #f1c40f;
+  margin: 0;
+  padding: 0;
+}
+
+.buy-button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #9F7651;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Jost', sans-serif;
+}
+
+.buy-button:hover {
+  background-color: #5a52d2;
+}

@@ -1,0 +1,24 @@
+.tabs-section {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tab {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: #9F7651;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab:hover {
+    background-color: rgba(159, 118, 81, 0.2);
+  }
+  

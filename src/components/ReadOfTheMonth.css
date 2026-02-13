@@ -1,0 +1,73 @@
+/* Adjusting the margin-top to add space above the Read of the Month section */
+.read-of-the-month {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(159, 118, 81, 0.49); /* Same background as WelcomeSection */
+  padding: 40px 20px;
+  box-sizing: border-box;
+  overflow: hidden; /* Ensure no scrollbars */
+  margin-top: 70px; /* Adjust this value to increase the space */
+}
+
+.read-of-the-month-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.read-of-the-month h2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 45px;
+  color: #ffffff;
+  margin-right: 20px;
+  white-space: nowrap; /* Prevent heading from wrapping */
+}
+
+.book-container {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  flex: 1;
+  justify-content: space-between; /* Distribute space between books */
+  align-items: center;
+}
+
+.book {
+  margin: 0 20px; /* Add space between books */
+  text-align: center;
+  transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.book img {
+  width: 200px; /* Adjust as needed for your book image dimensions */
+  height: 300px; /* Adjust as needed for your book image dimensions */
+}
+
+.book-info {
+  font-family: 'Jost', sans-serif;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.book-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.book-author {
+  font-size: 18px;
+  color: #dddddd;
+}
+
+.book-rate {
+  font-size: 18px;
+  color: #f1c40f;
+}
+
+.arrow {
+  font-size: 2em;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0 20px; /* Add space around the arrow */
+}
